@@ -6,15 +6,15 @@ Welcome to my Machine Learning & Data Analysis repository! This collection inclu
 
 - ✅ End-to-End Implementation of Supervised and Unsupervised Machine Learning algorithms
 
--🧮 Custom Engineered Core Functions: Distance measures, matrix operations, and statistical methods built from scratch — no ML libraries
+- 🧮 Custom Engineered Core Functions: Distance measures, matrix operations, and statistical methods built from scratch — no ML libraries
 
--🧪 Robust Model Evaluation: Includes cross-validation, confusion matrices (binary & multiclass), and error analysis
+- 🧪 Robust Model Evaluation: Includes cross-validation, confusion matrices (binary & multiclass), and error analysis
 
--🔍 Dimensionality Reduction: Principal Component Analysis (PCA) with visual insights
+- 🔍 Dimensionality Reduction: Principal Component Analysis (PCA) with visual insights
 
--📊 Interactive Visualizations: Intuitive plots to understand model behavior, convergence, and decision boundaries
+- 📊 Interactive Visualizations: Intuitive plots to understand model behavior, convergence, and decision boundaries
 
--🧠 Mathematical Depth: Emphasis on algorithmic fundamentals and core ML theory for a strong foundation
+- 🧠 Mathematical Depth: Emphasis on algorithmic fundamentals and core ML theory for a strong foundation
 
 
 
