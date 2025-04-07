@@ -50,5 +50,5 @@ Welcome to my Machine Learning & Data Analysis repository! This collection inclu
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/tanikaaaa/MACHINE_LEARNING.git
+git clone https://github.com/tanikaaaa/MACHINE-LEARNING.git
 cd MACHINE-LEARNING
