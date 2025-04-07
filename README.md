@@ -1,10 +1,6 @@
-# 🧠 Machine Learning Algorithms from Scratch in Python
+# 🧠 Machine Learning Algorithms in Python
+Welcome to my Machine Learning & Data Analysis repository! This collection includes Python and Jupyter Notebook implementations of various supervised and unsupervised learning algorithms, along with tools for evaluation, clustering, dimensionality reduction, and visualization.
 
-This repository contains a comprehensive collection of Machine Learning algorithms and utilities implemented **from scratch** in Python, along with **Jupyter Notebooks** for interactive visualization and analysis.
-
-Whether you're diving deep into algorithm fundamentals or showcasing applied skills for an SDE internship, this project reflects a strong grasp of both **theory** and **practical coding proficiency**.
-
----
 
 ## 📌 Highlights
 
