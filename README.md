@@ -1,55 +1,57 @@
-Machine Learning Algorithms Implementation
-Welcome to my Machine Learning Projects repository! This repo contains Python-based implementations of fundamental machine learning algorithms, built from scratch using only essential libraries like numpy and matplotlib. The goal of this project is to deeply understand the internal workings of each algorithm without relying on high-level libraries like scikit-learn.
+# 🧠 Machine Learning Algorithms and Analysis in Python
 
-🚀 Project Highlights
-🔍 Supervised Learning
+Welcome to my Machine Learning & Data Analysis repository! This collection includes Python and Jupyter Notebook implementations of various supervised and unsupervised learning algorithms, along with tools for evaluation, clustering, dimensionality reduction, and visualization.
 
-knn.py – K-Nearest Neighbors Classifier
+## 🚀 Overview
 
-naive_bayes_classifier.py – Naive Bayes Classifier
+This repo demonstrates my understanding of:
+- Core ML algorithms (classification, regression, clustering)
+- Data preprocessing and validation techniques
+- Model evaluation and visualization
+- Dimensionality reduction and distance metrics
 
-logistic.py – Logistic Regression
+Each algorithm is implemented from scratch in Python to emphasize learning and intuition over using high-level libraries.
 
-perceptron.py – Perceptron Algorithm
+## 📁 Directory Structure
 
-linear_regression.py – Linear Regression
+### 🔍 Supervised Learning
+- `linear_regression.py` / `LINEAR_REGRESSION.ipynb`
+- `logistic.py` / `LOGISTIC.ipynb`
+- `ridge_regression.py` / `RIDGE_REGRESSION.ipynb`
+- `perceptron.py` / `PERCEPTRON.ipynb`
+- `naive_bayes_classifier.py` / `NAIVE_BAYES_CLASSIFIER.ipynb`
+- `knn.py` / `KNN.ipynb`
+- `mahalanobis_distance_classifier.py` / `MAHALANOBIS_DISTANCE_CLASSIFIER.ipynb`
+- `euclidean_distance_classifier.py` / `EUCLIDEAN_DISTANCE_CLASSIFIER.ipynb`
 
-ridge_regression.py – Ridge Regression
+### 📊 Unsupervised Learning
+- `k_means_clustering.py` / `K_MEANS_CLUSTERING.ipynb`
+- `single_linkage_clustering.py` / `SINGLE_LINKAGE_CLUSTERING.ipynb`
+- `complete_linkage_clustering.py` / `COMPLETE_LINKAGE_CLUSTERING.ipynb`
 
-📊 Unsupervised Learning
+### 📉 Dimensionality Reduction
+- `principal_component_analysis.py` / `PRINCIPAL_COMPONENT_ANALYSIS.ipynb`
 
-k_means_clustering.py – K-Means Clustering
+### 📈 Model Evaluation & Validation
+- `evaluation_metrics.py`, `evaluation_metrics_2.py` / `EVALUATION_METRICS.ipynb`
+- `confusion_matrix(two_class).py`, `confusion_matrix_(multiclass).py` / corresponding notebooks
+- `plot_errors.py` / `PLOT_ERRORS.ipynb`
+- `k_fold_cross_validation.py` / `K_FOLD_CROSS_VALIDATION.ipynb`
 
-single_linkage_clustering.py – Hierarchical Clustering (Single Linkage)
+### 📚 Utilities
+- `training_and_testing_set(splitting).py` / `TRAINING_AND_TESTING_SET(SPLITTING).ipynb`
+- `covariance_matrix.py` / `COVARIANCE_MATRIX.ipynb`
+- `gaussian_(univariate).py`, `gaussian_(multivariate).py` / notebooks
 
-complete_linkage_clustering.py – Hierarchical Clustering (Complete Linkage)
+## 🛠 Technologies Used
 
-📈 Evaluation Metrics & Analysis
+- Python (NumPy, Matplotlib, etc.)
+- Jupyter Notebooks
+- Git / GitHub for version control
 
-evaluation_metrics.py – Accuracy, Precision, Recall, F1 Score, Specificity, Sensitivity, AUC, and more
+## 🎯 How to Use
 
-confusion_matrix(two_class).py – Binary Confusion Matrix
-
-confusion_matrix(multiclass).py – Multiclass Confusion Matrix
-
-plot_errors.py – Error Plotting Utility
-
-🧮 Statistical and Distance-Based Methods
-
-mahalanobis_distance_classifier.py
-
-euclidean_distance_classifier.py
-
-covariance_matrix.py
-
-gaussian_(univariate/multivariate).py
-
-🧪 Validation Techniques
-
-k_fold_cross_validation.py – Cross Validation from scratch
-
-training_and_testing_set(splitting).py – Dataset splitting utility
-
-📚 PCA
-
-principal_component_analysis.py – Dimensionality Reduction using PCA
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
