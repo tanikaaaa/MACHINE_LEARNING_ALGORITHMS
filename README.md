@@ -1,30 +1,35 @@
-# 🧠 Machine Learning Algorithms and Analysis in Python
+# 🧠 Machine Learning Algorithms from Scratch in Python
 
-Welcome to my Machine Learning & Data Analysis repository! This collection includes Python and Jupyter Notebook implementations of various supervised and unsupervised learning algorithms, along with tools for evaluation, clustering, dimensionality reduction, and visualization.
+This repository contains a comprehensive collection of Machine Learning algorithms and utilities implemented **from scratch** in Python, along with **Jupyter Notebooks** for interactive visualization and analysis.
 
-## 🚀 Overview
+Whether you're diving deep into algorithm fundamentals or showcasing applied skills for an SDE internship, this project reflects a strong grasp of both **theory** and **practical coding proficiency**.
 
-This repo demonstrates my understanding of:
-- Core ML algorithms (classification, regression, clustering)
-- Data preprocessing and validation techniques
-- Model evaluation and visualization
-- Dimensionality reduction and distance metrics
+---
 
-Each algorithm is implemented from scratch in Python to emphasize learning and intuition over using high-level libraries.
+## 📌 Highlights
 
-## 📁 Directory Structure
+- ✅ Supervised & Unsupervised Learning Implementations
+- 🧮 Custom-built evaluation metrics, distance functions, and matrix operations
+- 📊 Model validation techniques (like K-Fold Cross Validation)
+- 🔬 Dimensionality reduction via PCA
+- 📈 Visualizations for algorithm behavior and error tracking
+- 🧠 Focus on mathematical intuition & low-level understanding
+
+---
+
+## 🗂️ Project Structure
 
 ### 🔍 Supervised Learning
 - `linear_regression.py` / `LINEAR_REGRESSION.ipynb`
 - `logistic.py` / `LOGISTIC.ipynb`
 - `ridge_regression.py` / `RIDGE_REGRESSION.ipynb`
 - `perceptron.py` / `PERCEPTRON.ipynb`
-- `naive_bayes_classifier.py` / `NAIVE_BAYES_CLASSIFIER.ipynb`
 - `knn.py` / `KNN.ipynb`
-- `mahalanobis_distance_classifier.py` / `MAHALANOBIS_DISTANCE_CLASSIFIER.ipynb`
-- `euclidean_distance_classifier.py` / `EUCLIDEAN_DISTANCE_CLASSIFIER.ipynb`
+- `naive_bayes_classifier.py` / `NAIVE_BAYES_CLASSIFIER.ipynb`
+- `mahalanobis_distance_classifier.py`
+- `euclidean_distance_classifier.py`
 
-### 📊 Unsupervised Learning
+### 🧭 Unsupervised Learning
 - `k_means_clustering.py` / `K_MEANS_CLUSTERING.ipynb`
 - `single_linkage_clustering.py` / `SINGLE_LINKAGE_CLUSTERING.ipynb`
 - `complete_linkage_clustering.py` / `COMPLETE_LINKAGE_CLUSTERING.ipynb`
@@ -32,26 +37,22 @@ Each algorithm is implemented from scratch in Python to emphasize learning and i
 ### 📉 Dimensionality Reduction
 - `principal_component_analysis.py` / `PRINCIPAL_COMPONENT_ANALYSIS.ipynb`
 
-### 📈 Model Evaluation & Validation
+### 📐 Evaluation & Validation
 - `evaluation_metrics.py`, `evaluation_metrics_2.py` / `EVALUATION_METRICS.ipynb`
-- `confusion_matrix(two_class).py`, `confusion_matrix_(multiclass).py` / corresponding notebooks
+- `confusion_matrix(two_class).py`, `confusion_matrix_(multiclass).py`
 - `plot_errors.py` / `PLOT_ERRORS.ipynb`
 - `k_fold_cross_validation.py` / `K_FOLD_CROSS_VALIDATION.ipynb`
 
-### 📚 Utilities
-- `training_and_testing_set(splitting).py` / `TRAINING_AND_TESTING_SET(SPLITTING).ipynb`
+### 🧰 Utilities
 - `covariance_matrix.py` / `COVARIANCE_MATRIX.ipynb`
-- `gaussian_(univariate).py`, `gaussian_(multivariate).py` / notebooks
+- `gaussian_(univariate).py`, `gaussian_(multivariate).py`
+- `training_and_testing_set(splitting).py`
 
-## 🛠 Technologies Used
+---
 
-- Python (NumPy, Matplotlib, etc.)
-- Jupyter Notebooks
-- Git / GitHub for version control
+## 🚀 Getting Started
 
-## 🎯 How to Use
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+### 1. Clone the repository:
+```bash
+git clone https://github.com/tanikaaaa/MACHINE_LEARNING.git
+cd MACHINE-LEARNING
