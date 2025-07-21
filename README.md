@@ -1,23 +1,26 @@
-# 🧠 Machine Learning Algorithms — From Scratch with Python
+# 🧠 Machine Learning — Algorithms & Evaluation Tools (From Scratch in Python)
 
-Welcome to this curated collection of classic **Machine Learning algorithms** implemented **from scratch** in **Python** and **Jupyter Notebooks**. Each model is built using core Python and NumPy, with the goal of understanding the math and logic behind the algorithms — no high-level ML libraries involved.
+Welcome to this curated collection of classic **Machine Learning algorithms** and **model evaluation tools**, all implemented **from scratch** using **Python** and **Jupyter Notebooks**.
+
+This repo is ideal for students, enthusiasts, and developers who want to understand the **mathematics and logic** behind ML — without relying on libraries like `scikit-learn`.
 
 ---
 
 ## 🧾 Overview
 
-🔹 Supervised Learning  
-🔹 Unsupervised Learning  
+🔹 Supervised & Unsupervised Learning  
 🔹 Dimensionality Reduction  
-🔹 Visualization of Model Behavior  
+🔹 Model Evaluation Metrics  
+🔹 Visualization Tools  
+🔹 Data Preprocessing & Utility Functions  
 
-Every algorithm comes with both:
-- 📜 **`.py` script** — clean and modular
-- 📒 **`.ipynb` notebook** — visual, interactive, and intuitive
+Each topic is available as:
+- 📜 `.py` scripts — clean, modular code
+- 📒 `.ipynb` notebooks — interactive and visual explanations
 
 ---
 
-## 📚 Algorithms Implemented
+## 💡 Part 1: Machine Learning Algorithms
 
 ### 🔍 Supervised Learning
 | Algorithm                    | Script                          | Notebook                          |
@@ -49,7 +52,42 @@ Every algorithm comes with both:
 
 ---
 
-## ⚙️ Getting Started
+## 🧪 Part 2: Model Evaluation & Statistical Tools
+
+### 📈 Evaluation & Performance
+- `evaluation_metrics.py` / `EVALUATION_METRICS.ipynb`  
+  → Accuracy, Precision, Recall, F1 Score, ROC-AUC  
+- `evaluation_metrics_2.py` / `EVALUATION_METRICS_2.ipynb`  
+  → DET & ROC Curves, AUC Calculation  
+
+### 🧮 Confusion Matrices
+- `confusion_matrix(two_class).py` / `CONFUSION_MATRIX(TWO_CLASS).ipynb`  
+- `confusion_matrix_(multiclass).py` / `CONFUSION_MATRIX_(MULTICLASS).ipynb`  
+  → Visual and numeric confusion matrix analysis  
+
+### 🔁 Cross Validation
+- `k_fold_cross_validation.py` / `K_FOLD_CROSS_VALIDATION.ipynb`  
+  → Manual K-Fold implementation  
+
+### 📉 Error Visualization
+- `plot_errors.py` / `PLOT_ERRORS.ipynb`  
+  → Visual comparison of predicted vs actual  
+
+---
+
+### 📊 Statistical Utilities
+- `covariance_matrix.py` / `COVARIANCE_MATRIX.ipynb`  
+- `gaussian_(univariate).py` / `GAUSSIAN_(UNIVARIATE).ipynb`  
+- `gaussian_(multivariate).py` / `GAUSSIAN_(MULTIVARIATE).ipynb`  
+  → Core statistical functions for analysis  
+
+### 🔀 Data Splitting
+- `training_and_testing_set(splitting).py` / `TRAINING_AND_TESTING_SET(SPLITTING).ipynb`  
+  → Manual train-test split logic  
+
+---
+
+## 🚀 Getting Started
 
 1. **Clone the repository**
 ```bash
