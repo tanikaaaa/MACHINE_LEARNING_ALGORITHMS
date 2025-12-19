@@ -13,6 +13,7 @@ This repo is ideal for students, enthusiasts, and developers who want to underst
 🔹 Model Evaluation Metrics  
 🔹 Visualization Tools  
 🔹 Data Preprocessing & Utility Functions  
+🔹 **Deep Learning & Generative Models (GANs)**  
 
 Each topic is available as:
 - 📜 `.py` scripts — clean, modular code
@@ -84,6 +85,22 @@ Each topic is available as:
 ### 🔀 Data Splitting
 - `training_and_testing_set(splitting).py` / `TRAINING_AND_TESTING_SET(SPLITTING).ipynb`  
   → Manual train-test split logic  
+
+---
+
+## 🤖 Part 3: Deep Learning — Generative Adversarial Networks (DCGAN)
+
+This repository also includes a **Deep Learning project** focused on **Generative Adversarial Networks (GANs)** for **realistic human face generation**.
+
+### 🧠 DCGAN – Human Face Generation
+- Implemented a **Deep Convolutional GAN (DCGAN)** architecture consisting of:
+  - Generator network using transposed convolution layers
+  - Discriminator network using deep convolution layers
+- Trained the model using **adversarial learning** to generate realistic human face images from random noise
+- Explored training stability techniques and loss behavior during generator–discriminator competition
+- Gained hands-on experience with **deep learning workflows, convolutional architectures, and generative modeling**
+
+This project bridges **classical ML fundamentals** with **modern deep learning and computer vision techniques**.
 
 ---
 
